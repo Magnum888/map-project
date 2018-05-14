@@ -1,12 +1,12 @@
-# Gulp_SimpleStart
- Gulp Starter Template (SASS, Browsersync, Uglify, cleanCSS, Autoprefixer). Simple version 1.0.0
+# Map project
+ Map Template (SASS, Browsersync, Uglify, cleanCSS, Autoprefixer). Simple version 1.0.0
  
 ## Quick start
 
 Several quick start options are available:
 
-- [Download the latest release.](https://github.com/Magnum888/Gulp_SimpleStart.zip)
-- Clone the repo: `git clone https://github.com/Magnum888/Gulp_SimpleStart.git`
+- [Download the latest release.](https://github.com/Magnum888/map-project.zip)
+- Clone the repo: `git clone https://github.com/Magnum888/map-project.git`
 - Verification latest package version `ncu` and update `ncu -a`
 - Install with [npm](https://www.npmjs.com/): `npm i`
 - Create project `gulp`
