@@ -2,8 +2,5 @@
 /.git/
 /app/css/
 package-lock.json
-package.json
-gulpfile.js
-.bowerrc
 /**/Thumbs.db
 /**/.DS_Store
