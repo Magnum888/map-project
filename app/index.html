@@ -85,7 +85,7 @@
 						<hr class="farm__hr">
 					</div>
 					<div class="farm__map">
-							<div class="farm__map--view">View map</div>
+						<div class="farm__map--view" data-toggle="modal" data-target="#mapModal" data-namefarm="'R' FARM">View map</div>
 					</div>
 				</div>
 
@@ -118,7 +118,7 @@
 						<hr class="farm__hr">
 					</div>
 					<div class="farm__map">
-							<div class="farm__map--view">View map</div>
+						<div class="farm__map--view" data-toggle="modal" data-target="#mapModal" data-namefarm="'Saskatoon' FARM">View map</div>
 					</div>
 				</div>
 
@@ -147,7 +147,7 @@
 						<hr class="farm__hr">
 					</div>
 					<div class="farm__map">
-							<div class="farm__map--view">View map</div>
+						<div class="farm__map--view" data-toggle="modal" data-target="#mapModal" data-namefarm="'Herbert' FARM">View map</div>
 					</div>
 				</div>
 
@@ -182,7 +182,7 @@
 						<hr class="farm__hr">
 					</div>
 					<div class="farm__map">
-							<div class="farm__map--view">View map</div>
+						<div class="farm__map--view" data-toggle="modal" data-target="#mapModal" data-namefarm="'Uxbridge' FARM">View map</div>
 					</div>
 				</div>
 
@@ -211,10 +211,26 @@
 						<hr class="farm__hr">
 					</div>
 					<div class="farm__map">
-							<div class="farm__map--view">View map</div>
+						<div class="farm__map--view" data-toggle="modal" data-target="#mapModal" data-namefarm="'Perth' FARM">View map</div>
 					</div>
 				</div>
 
+			</div>
+
+			<div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<div class="modal-title" id="mapModalLabel"></div>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div id="mapModal" class="modal-body">
+						
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 

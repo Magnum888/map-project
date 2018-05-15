@@ -34,11 +34,11 @@ function initMap() {
         marker.setIcon(properties.image);
       };
       if(properties.info){
-        var InfoWindow = new google.maps.InfoWindow({
+        var infoWindow = new google.maps.InfoWindow({
           content: properties.info
         });
         marker.addListener('click', function(){
-          InfoWindow.open(map, marker);
+          infoWindow.open(map, marker);
         });
       };
     };
