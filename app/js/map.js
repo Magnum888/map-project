@@ -42,6 +42,15 @@ function initMap() {
         });
       };
     };
+
+  //   var app = Array.prototype;
+  //   app.forEach.call(document.querySelectorAll('#mapModal'), function(el){
+  //     el.addEventListener('show.bs.modal', function(){
+  //       var buttonn = $(event.relatedTarget)
+	// 	    console.log(buttonn)
+  //    }, false);
+  //  });
+
   };
   function showError(error) {
     switch(error.code) {
