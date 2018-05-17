@@ -14,8 +14,13 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
-	// .main--menu__item
-	// 	width: 100%
+	/**/
+
+@media only screen and (min-width: 576px) and (max-width : 599px)
+	#farms 
+		.col-12.col-sm-4.farm__item
+			width: 100vw
+
 @media only screen and (max-width : 525px)
 	.main--menu__item
 		width: 100%
@@ -30,7 +35,11 @@
 		// display: flex
 		// flex: 1
 		width: 100%
-
+	.header
+		&__title
+			font-size: 2rem
+		&__subtitle
+			font-size: 1.5rem
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)

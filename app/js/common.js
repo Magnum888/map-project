@@ -20,7 +20,7 @@ $(function() {
 		  icon: '../img/map-marker.png'
 		});
 		var infoWindow = new google.maps.InfoWindow({
-			content: "<div class='marker--title'>" + namefarm + "</div>" + "<hr class='marker--hr'>" + "<div>Product: " + productfarm + "</div>" + "<hr class='marker--hr'>" + "<div> Address: " + addressfarm + "</div>" + "<hr class='marker--hr'>" + "<a href=''>show more</a>"
+			content: "<div class='marker--title'>" + namefarm + "</div>" + "<hr class='marker--hr'>" + "<div>Product: " + productfarm + "</div>" + "<hr class='marker--hr'>" + "<div> Address: " + addressfarm + "</div>" + "<hr class='marker--hr'>" + "<a href='farm.html'>show more</a>"
 		});
 		marker.addListener('click', function(){
 			infoWindow.open(map, marker)

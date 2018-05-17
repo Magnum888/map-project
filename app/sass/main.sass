@@ -48,15 +48,15 @@
 
 .search-section
     display: flex
-    flex-direction: row
-    justify-content: space-between
-    align-items: center
+    flex-direction: column
+    // justify-content: space-between
+    // align-items: center
     margin: 0 30px
     padding: 20px 0
 .search
     flex: 1
     position: relative
-    margin-right: 10%
+    margin-top: 20px
     &__input
         height: 30px
         width: 100%
@@ -78,11 +78,17 @@
         font-weight: 18px
 
 .login
+    display: flex
+    justify-content: flex-end
     &__link
         background-color: #003580
-        border-radius: 5px
+        border-radius: 20px
         padding: 5px 10px
         text-decoration: none
+        width: 100px
+        text-align: center
+        &:hover
+           text-decoration: none 
     &__button
         color: #ffffff
     &__button:hover
@@ -128,7 +134,7 @@
     margin: 20px 0
     &__item
         margin: 10px 0
-        min-width: 300px
+        min-width: 288px
     // &__img
     //     height: 200px
     &__title
